@@ -11,7 +11,7 @@ const Sidebar = () => {
                 <ul className="sidebarList">
                     <li className="sidebarListItem active">
                         <LineStyle className='sidebarIcon' />
-                        Home
+                        <a href="/">Home</a>
                     </li>
                     <li className="sidebarListItem">
                         <Timeline className='sidebarIcon' />
@@ -28,7 +28,7 @@ const Sidebar = () => {
                 <ul className="sidebarList">
                     <li className="sidebarListItem">
                         <PermIdentity className='sidebarIcon' />
-                        Users
+                        <a href="/users">Users</a>
                     </li>
                     <li className="sidebarListItem">
                         <Storefront className='sidebarIcon' />

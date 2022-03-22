@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .sidebar {
     flex: 1;
     height: calc(100vh - 50px);  /* ถ้าใช้ 100vh มันจะล้นหน้าด้านข้าง */
