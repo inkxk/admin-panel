@@ -32,7 +32,7 @@ const Sidebar = () => {
                     </li>
                     <li className="sidebarListItem">
                         <Storefront className='sidebarIcon' />
-                        Products
+                        <a href="/products">Products</a>
                     </li>
                     <li className="sidebarListItem">
                         <AttachMoney className='sidebarIcon' />
